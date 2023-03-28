@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Release to S3
-      run: bash scripts/pipeline/release.sh ${{env.AWS_BUCKET}} "s3/demo.txt" ${{env.AWS_Access_Key}} ${{env.AWS_Access_Secret}} "demo.txt"
+      run: bash scripts/pipeline/release.sh ${{env.AWS_BUCKET}} "s3/demo.txt" ${{env.AWS_ACCESS_KEY}} ${{env.AWS_ACCESS_SECRET}} "demo.txt"
