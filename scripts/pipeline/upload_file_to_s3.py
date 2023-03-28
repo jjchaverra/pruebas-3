@@ -3,7 +3,7 @@ import sys
 
 def main():
     
-    print (sys)
+    print (sys.argv)
     bucket_name=sys.argv[1]
     aws_key=sys.argv[2]
     aws_access_key=sys.argv[3]
