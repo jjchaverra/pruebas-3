@@ -1,6 +1,6 @@
 name: "S3 File Upload"
-description: "Upload an object to an S3 bucket."
-author: "zdurham"
+description: "Sube el archivo a un bucket de s3"
+author: "Yeferson Chaverra"
 runs:
   using: docker
   image: Dockerfile
