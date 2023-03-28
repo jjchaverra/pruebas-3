@@ -26,7 +26,7 @@ def main():
     response = client.upload_file(
         local_path,
         bucket_name,
-        
+        aws_key
     )
     print ('Done uploading')
 
