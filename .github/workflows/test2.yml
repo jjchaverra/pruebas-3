@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Release to S3
-      run: bash scripts/pipeline/release.sh "casalud-aps" "demo.txt" "AKIAZ4LWURJCIMWWYTV5" "LYu6YYWrSTgXxNSzw3izGsOctBJvs9Q50Bj1J3" "demo.txt"
+      run: bash scripts/pipeline/release.sh "gittyeferson" "demo.txt" "AKIAZLM4KFJ7AUNVWC4U" "GoBPrVmtPN8K1H+q7dugwJbYK3K6UB1rXxT/iKNG" "demo.txt"
