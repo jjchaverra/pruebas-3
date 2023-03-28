@@ -1,0 +1,16 @@
+name: ReleaseCI
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Upload Ventas csv
+      run: bash scripts/pipeline/release.sh "gittyeferson" "demo.txt" "AKIAZLM4KFJ7AUNVWC4U" "GoBPrVmtPN8K1H+q7dugwJbYK3K6UB1rXxT/iKNG" "demo.txt"
+    - name: Upload VentasXML
+      run: bash scripts/pipeline/release.sh "gittyeferson" "demo1.txt" "AKIAZLM4KFJ7AUNVWC4U" "GoBPrVmtPN8K1H+q7dugwJbYK3K6UB1rXxT/iKNG" "demo1.txt"
