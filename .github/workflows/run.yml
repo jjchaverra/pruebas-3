@@ -15,5 +15,5 @@ jobs:
         with:
           aws_key_id: 'AKIAZ4LWURJCIMWWYTV5'
           aws_secret_access_key: 'LYu6YYWrSTgXxNSzw3izGsOctBJvs9Q50Bj1J3'
-          aws_bucket: 'prueba-git'
+          aws_bucket: 'casalud-aps'
           source_dir: 's3'
