@@ -24,9 +24,9 @@ def main():
     client = session.client('s3')
 
     response = client.upload_file(
-        Filename=local_path,
-        Bucket=bucket_name,
-        Key=aws_key
+        local_path,
+        bucket_name,
+        aws_key
     )
     print ('Done uploading')
 
